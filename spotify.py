@@ -30,7 +30,9 @@ destroyed = False
 cmdaddtextscript = session.create_script("""
 Interceptor.attach(ptr("%s"), {
     onEnter(args) {
-        send(ptr(args[7]).readCString());
+        if (ptr(args[6]).readCString().indexOf("track") !== -1) {
+            send(ptr(args[7]).readCString());
+        }
     }
 });
 """ % int(CMDADDTEXT, 16))
