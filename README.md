@@ -18,10 +18,10 @@ On the front-end, run `npm install` then edit environment.ts to reflect your bac
 
 If everything went correctly, visiting http://localhost:4200 should show something like this:
 
-<img src="https://i.imgur.com/6U32rrv.png">
+<img src="https://i.imgur.com/4RKSyWq.png">
 
 This has been tested on Spotify version 1.2.11.916.geb595a67, although the Spotify package must be compiled by yourself as I'm afraid it doesn't work if installed through snapd.
 
 Other versions could/could not work.
 
-<img src="https://i.imgur.com/zdKTn8R.png">
+<img src="https://i.imgur.com/Xqc4Ulz.png">
