@@ -1,0 +1,16 @@
+.content {
+  padding: 2em;
+}
+
+.content > mat-card {
+  margin: 2em;
+}
+
+.grow {
+  scale: 1;
+  transition: 0.5s;
+}
+
+.grow:hover {
+  scale: 1.1;
+}
